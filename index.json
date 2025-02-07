@@ -1,0 +1,37 @@
+[{
+    "title": "Deepseek τι είναι;",
+    "url": "https://stemerot.pages.dev/posts/technology/llms-deepseek/",
+    "summary": "Τα LLMs είναι μοντέλα τεχνιτής νοημοσύνης, είναι όμως επικύνδινα;",
+    "description": "Τα LLMs είναι μοντέλα τεχνιτής νοημοσύνης, είναι όμως επικύνδινα;",
+    "category": "posts"
+  },{
+    "title": "Η μεγάλη μάχη των λειτουργικών",
+    "url": "https://stemerot.pages.dev/posts/technology/pc-vs-mac-vs-linux/",
+    "summary": "Ποιό λειτουργικό είναι καλύτερο να χρησιμοποιείες;",
+    "description": "Ποιό λειτουργικό είναι καλύτερο να χρησιμοποιείες;",
+    "category": "posts"
+  },{
+    "title": "Τεχνικές υπολογισμού της θέσης",
+    "url": "https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/",
+    "summary": "Ποιές τεχνικές υπολογισμού θέσης υπάρχουν, έχοντας γνώση αποστάσεων ή γωνιών σε ένα σύστημα.",
+    "description": "Ποιές τεχνικές υπολογισμού θέσης υπάρχουν, έχοντας γνώση αποστάσεων ή γωνιών σε ένα σύστημα.",
+    "category": "posts"
+  },{
+    "title": "Χρήση κάμερας για υπολογισμό της θέσης",
+    "url": "https://stemerot.pages.dev/posts/engineering/localization/camera-pose-estimation/",
+    "summary": "Πώς μπορούμε με μία κάμερα να εκτιμήσουμε την θέση μας στον χώρο.",
+    "description": "Πώς μπορούμε με μία κάμερα να εκτιμήσουμε την θέση μας στον χώρο.",
+    "category": "posts"
+  },{
+    "title": "Εκτίμηση απόσταση/γωνίας με βάση την ενέργεια",
+    "url": "https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/",
+    "summary": "Πώς μπορούμε με ηλεκτρομαγνητικά/ακουστικά σήματα να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων",
+    "description": "Πώς μπορούμε με ηλεκτρομαγνητικά/ακουστικά σήματα να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων",
+    "category": "posts"
+  },{
+    "title": "Μα καλά πώς δουλεύει το GPS;",
+    "url": "https://stemerot.pages.dev/posts/engineering/localization/localization/",
+    "summary": "Καθημερινά χρησιμοποιούμε εφαρμογές όπως το gmaps για να κινηθούμε από το ένα σημείο στο άλλο, πώς όμως δουλεύει αυτό;",
+    "description": "Καθημερινά χρησιμοποιούμε εφαρμογές όπως το gmaps για να κινηθούμε από το ένα σημείο στο άλλο, πώς όμως δουλεύει αυτό;",
+    "category": "posts"
+  }]

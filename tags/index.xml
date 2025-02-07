@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Stemerot</title>
+    <link>https://stemerot.pages.dev/tags/</link>
+    <description>Recent content in Tags on Stemerot</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stemerot.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://stemerot.pages.dev/tags/ai/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://stemerot.pages.dev/tags/llm/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://stemerot.pages.dev/tags/linux/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>https://stemerot.pages.dev/tags/mac/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OS</title>
+      <link>https://stemerot.pages.dev/tags/os/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/os/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://stemerot.pages.dev/tags/windows/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Camera</title>
+      <link>https://stemerot.pages.dev/tags/camera/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/camera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPS</title>
+      <link>https://stemerot.pages.dev/tags/gps/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/gps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stereo Vision</title>
+      <link>https://stemerot.pages.dev/tags/stereo-vision/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/stereo-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TDOA</title>
+      <link>https://stemerot.pages.dev/tags/tdoa/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/tdoa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TOA</title>
+      <link>https://stemerot.pages.dev/tags/toa/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/tags/toa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

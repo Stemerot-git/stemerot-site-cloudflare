@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Stemerot</title>
+    <link>https://stemerot.pages.dev/tags/ai/</link>
+    <description>Recent content in AI on Stemerot</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stemerot.pages.dev/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deepseek τι είναι;</title>
+      <link>https://stemerot.pages.dev/posts/technology/llms-deepseek/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/posts/technology/llms-deepseek/</guid>
+      <description>Τα LLMs είναι μοντέλα τεχνιτής νοημοσύνης, είναι όμως επικύνδινα;</description>
+    </item>
+  </channel>
+</rss>
