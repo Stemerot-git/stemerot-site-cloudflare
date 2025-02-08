@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psychology on Stemerot</title>
+    <link>https://stemerot.pages.dev/topics/psychology/</link>
+    <description>Recent content in Psychology on Stemerot</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stemerot.pages.dev/topics/psychology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Μήπως όλοι σκεφτόμαστε με χαζό τρόπο;</title>
+      <link>https://stemerot.pages.dev/posts/psychology/stupid-people/</link>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/posts/psychology/stupid-people/</guid>
+      <description>Είναι ένα άτομο με υψηλό IQ έξυπνο σε όλους τους τομείς της ζωής του;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" />
+  <title>Μα καλά, πώς δουλεύει το GPS; - Stemerot</title>
+  <link rel="icon" href="/img/stemerot-icon-circular.png">
+  <meta name="description" content="Καθημερινά χρησιμοποιούμε εφαρμογές όπως το Gmaps για να μετακινηθούμε από το ένα σημείο στο άλλο. Πώς, όμως, λειτουργεί αυτό;" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/bundle.min.0f4d212b2e00f237263b27e99b2c9fd09d279d0aab555896b5cd0f69a42ec58c.css" integrity="sha256-D00hKy4A8jcmOyfpmyyf0J0nnQqrVViWtc0PaaQuxYw=">
+  
+  
+</head>
+<body>
+  <header class="site-header">
+  <div class="header-container">
+    <a href="/">
+      <div class="stemerot-logo">
+        <img src="/img/stemerot-icon.svg" alt="Stemerot icon" />
+        <div class="stemerot-title">Stemerot</div>
+      </div>
+    </a>
+    
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    
+    <nav id="main-nav" class="main-nav">
+      <ul>
+        <li><a href="/">Posts</a></li>
+        <li><a href="/topics/">Topics</a></li>
+        <li><a href="/eshop/">Shop</a></li>
+        <li><a href="/courses/">Courses</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+    <div class="search-and-toggle">
+      <div class="search-bar">
+        <input id="search-input" type="search" placeholder="🔍 Αναζήτηση..." />
+        <div id="search-results"></div>
+      </div>
+      
+      <button id="toggle-theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </div>
+</header>
+
+  
+
+
+<section class="adsense-section-small section-container">
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-5957385556386219"
+        data-ad-slot="9876543210"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+    </ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</section>
+
+<main class="post-main-section">
+  
+  <div class="post-content">
+    
+    
+      <div class="post-image">
+        <img src="/img/posts/global-map.webp" alt="Μα καλά, πώς δουλεύει το GPS;">
+      </div>
+    
+
+    <h1 class="post-title">Μα καλά, πώς δουλεύει το GPS;</h1>
+
+    
+      <div class="post-summary">
+        <p>Καθημερινά χρησιμοποιούμε εφαρμογές όπως το Gmaps για να μετακινηθούμε από το ένα σημείο στο άλλο. Πώς, όμως, λειτουργεί αυτό;</p>
+      </div>
+    
+
+    <div class="post-meta">
+      <div class="post-date-readtime">
+        <span class="post-readtime">1 min read</span>
+        <span> - </span>
+        
+        
+        
+        
+        
+        
+        
+        <span class="post-date">15 Ιαν 2025</span>
+      </div>
+      <div class="post-share">
+        <h3>Share: </h3>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstemerot.pages.dev%2fposts%2fengineering%2flocalization%2flocalization-system%2f" target="_blank">
+            <img src="/img/social/facebook-icon.svg" alt="Share on Facebook">
+          </a>
+          <a href="https://x.com/intent/tweet?text=%CE%9C%CE%B1&#43;%CE%BA%CE%B1%CE%BB%CE%AC%2C&#43;%CF%80%CF%8E%CF%82&#43;%CE%B4%CE%BF%CF%85%CE%BB%CE%B5%CF%8D%CE%B5%CE%B9&#43;%CF%84%CE%BF&#43;GPS%3B&url=https%3a%2f%2fstemerot.pages.dev%2fposts%2fengineering%2flocalization%2flocalization-system%2f" target="_blank">
+            <img src="/img/social/x-icon.svg" alt="Share on X">
+          </a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fstemerot.pages.dev%2fposts%2fengineering%2flocalization%2flocalization-system%2f" target="_blank">
+            <img src="/img/social/linkedin-icon.svg" alt="Share on LinkedIn">
+          </a>
+      </div>
+    </div>
+    
+    <div class="post-tags" style="margin-top: 0.1rem;">
+      
+        <a href="/tags/gps" class="tag" style="text-decoration: none;color:inherit">GPS</a>
+      
+    </div>
+    
+
+    <br>
+    <hr>
+    <br>
+    
+
+    <div class="post-content-body">
+      <p>Είσαι στο κέντρο της πόλης σου, είναι μεσημέρι και σε παίρνει τηλέφωνο το φιλαράκι σου. Σου λέει να πας να την/τον συνατήσεις σε ένα μαγαζί που δεν ξέρεις καν ότι υπάρχει.. Τι κάνεις;</p>
+<br>
+<p>Σιγά την απορία&hellip; Βγάζεις το κινητό, μπαίνεις στο Google maps ή το Apple maps, γράφεις το όνομα του μαγαζιού και σε 5 λεπτά είσαι εκεί!</p>
+<br>
+<p>Αλήθεια όμως&hellip; Πώς ξέρει το κινητό σου που βρίσκεται το μαγαζί..; Πώς ξέρει καν που βρίσκεσαι εσύ; Επίσης, πώς ξέρει από όλους αυτούς τους δρόμους που υπάρχουν ποιόν να ακολουθήσει;</p>
+<br>
+<p>Το πιο πιθανό είναι να μην τα είχες σκεφτεί όλα αυτά μέχρι τώρα.. Ή ακόμα και αν τα είχες σκεφτεί, μάλλον η πιο προφανής απάντηση που είχες δώσει είναι, ότι με κάποιο μαγικό τρόπο κάπως απλά δουλεύουν..</p>
+<br>
+<p>Για να είμαστε όμως ειλικρινής, δεν είναι έτσι&hellip; Οι παραπάνω ερωτήσεις, αποτελούν μέρος προβλημάτων, που μαθηματικοί, μηχανικοί και άλλοι επιστήμονες προσπαθούν να λύσουν για χρόνια. Και εμείς θα δούμε την βασική
+ιδέα για το πως προσπαθούν να το καταφέρουν αυτό.</p>
+<br>
+<h2 id="πρόβλημα-1">Πρόβλημα 1</h2>
+<br>
+<h2 id="-παραπομπές">🔗 Παραπομπές</h2>
+<p>[1] Christos Spyridakis, &ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms&rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 <a href="https://doi.org/10.26233/heallink.tuc.91531">https://doi.org/10.26233/heallink.tuc.91531</a></p>
+
+    </div>
+
+    <br>
+    <br>
+
+    
+    
+    <div class="post-author">
+    <h3>Σχετικά με τον αρθρογράφο</h3>
+    
+    
+        <div class="author-single">
+        <div class="author-image">
+          <a href="/author/cspyridakis/" style="text-decoration: none;color:inherit">
+            <img src="/img/authors/cspyridakis.webp" alt="Χρήστος Σπυριδάκης">
+          </a>
+        </div>
+        <div class="author-info">
+          <a href="/author/cspyridakis/" style="text-decoration: none;color:inherit">
+            <h4>Χρήστος Σπυριδάκης</a></h4>
+          </a>
+          <p>Ο Χρήστος είναι ο ιδρυτής του Stemerot, ένας μηχανικός με αγάπη για θέματα που αφορούν τον ευρύτερο κλάδο του STEM που του αρέσει να ασχολείται συνέχεια με νέες τεχνολογίες.</p>
+        </div>
+        <div class="author-single-social">
+            
+              <a href="https://www.linkedin.com/in/cspyridakis/" target="_blank">
+                <img src="/img/social/linkedin-icon.svg" alt="LinkedIn">
+              </a>
+            
+            
+              <a href="https://github.com/CSpyridakis" target="_blank">
+                <img src="/img/social/github-icon.svg" alt="Github">
+              </a>
+            
+            
+              <a href="https://www.instagram.com/cspyridakis/" target="_blank">
+                <img src="/img/social/instagram-icon.svg" alt="Instagram">
+              </a>
+            
+            
+              <a href="https://www.facebook.com/cspyridakis/" target="_blank">
+                <img src="/img/social/facebook-icon.svg" alt="Facebook">
+              </a>
+            
+            
+              <a href="https://x.com/ChSpyridakis" target="_blank">
+                <img src="/img/social/x-icon.svg" alt="X">
+              </a>
+            
+          </div>
+        </div>
+    
+</div>
+
+    
+  </div>
+
+  
+  <aside class="sidebar">
+    <section class="recent-posts">
+    <h2>Πρόσφατα</h2>
+    
+    <article class="post">
+        <a href="/posts/technology/ai/llms-deepseek/">
+        
+        <img src="/img/posts/deepseek.webp" alt="Μα καλά, πώς δουλεύει το GPS;" />
+        
+        </a>
+        <div class="post-info">
+            <p class="post-date">
+                
+                
+                
+                
+                
+                 
+                04 Φεβ 2025
+                -
+                
+                    Χρήστος Σπυριδάκης
+                
+            </p>
+            <h3 class="post-title">Τι είναι το Deepseek;</h3>
+            <p class="post-summary">Τα LLMs είναι μοντέλα τεχνητής νοημοσύνης. Είναι, όμως, επικίνδυνα;</p>
+            <div class="post-tags">
+                
+                    <a href="/tags/ai" class="tag" style="text-decoration: none;color:inherit">AI</a>
+                
+                    <a href="/tags/llm" class="tag" style="text-decoration: none;color:inherit">LLM</a>
+                
+            </div>
+        </div>
+        <br>
+    </article>
+    
+    <article class="post">
+        <a href="/posts/engineering/drones/">
+        
+        <img src="/img/posts/drone-mini.webp" alt="Μα καλά, πώς δουλεύει το GPS;" />
+        
+        </a>
+        <div class="post-info">
+            <p class="post-date">
+                
+                
+                
+                
+                
+                 
+                21 Ιαν 2025
+                -
+                
+                    Χρήστος Σπυριδάκης
+                
+            </p>
+            <h3 class="post-title">Μη επανδρωμένα οχήματα</h3>
+            <p class="post-summary">Ποιες είναι οι διάφορες κατηγορίες drones και μπορούν να χρησιμοποιηθούν για κάτι πέρα από τη λήψη βίντεο;</p>
+            <div class="post-tags">
+                
+                    <a href="/tags/uav" class="tag" style="text-decoration: none;color:inherit">UAV</a>
+                
+                    <a href="/tags/vtol" class="tag" style="text-decoration: none;color:inherit">VTOL</a>
+                
+            </div>
+        </div>
+        <br>
+    </article>
+    
+    </section>
+
+    <section class="adsense-section">
+        <ins 
+            class="adsbygoogle" 
+            style="display:block" 
+            data-ad-client="ca-pub-5957385556386219" 
+            data-ad-slot="9876543210" 
+            data-ad-format="auto">
+        </ins>
+    </section>
+
+    <section class="popular-tags">
+        <h2>Popular Tags</h2>
+        <div class="tags">
+            
+            
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+            
+            
+            
+                
+                <a href="https://stemerot.pages.dev/tags/gps/" class="tag" style="text-decoration: none; color: inherit">
+                    GPS
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/ai/" class="tag" style="text-decoration: none; color: inherit">
+                    AI
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/camera/" class="tag" style="text-decoration: none; color: inherit">
+                    Camera
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/dunning-kruger/" class="tag" style="text-decoration: none; color: inherit">
+                    Dunning Kruger
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/encryption/" class="tag" style="text-decoration: none; color: inherit">
+                    Encryption
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/linux/" class="tag" style="text-decoration: none; color: inherit">
+                    Linux
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/llm/" class="tag" style="text-decoration: none; color: inherit">
+                    LLM
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/mac/" class="tag" style="text-decoration: none; color: inherit">
+                    Mac
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/os/" class="tag" style="text-decoration: none; color: inherit">
+                    OS
+                </a>
+            
+                
+                <a href="https://stemerot.pages.dev/tags/stereo-vision/" class="tag" style="text-decoration: none; color: inherit">
+                    Stereo Vision
+                </a>
+            
+        </div>
+    </section>
+    
+</section>
+  </aside>
+</main>
+
+
+<section class="adsense-section section-container">
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-5957385556386219"
+        data-ad-slot="9876543210"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+    </ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</section>
+
+
+<section class="all-posts-section section-container">
+    <h2>Πρόσφατα Άρθρα</h2>
+    <div class="all-posts-grid">
+        
+        
+        
+            <article class="post">
+                <a href="https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/">
+                    <img src="/img/posts/deepseek.webp" alt="Τι είναι το Deepseek;">
+                </a>
+                <div class="post-info">
+                    <p class="post-date">
+                        04 Feb 2025 -
+                        
+                            Χρήστος Σπυριδάκης
+                        
+                    </p>
+                    <h3 class="post-title">Τι είναι το Deepseek;</h3>
+                    <p class="post-summary">Τα LLMs είναι μοντέλα τεχνητής νοημοσύνης. Είναι, όμως, επικίνδυνα;</p>
+                    <div class="post-tags">
+                        
+                        <a href="/tags/ai" class="tag" style="text-decoration: none;color:inherit">AI</a>
+                        
+                        <a href="/tags/llm" class="tag" style="text-decoration: none;color:inherit">LLM</a>
+                        
+                    </div>
+                </div>
+            </article>
+        
+            <article class="post">
+                <a href="https://stemerot.pages.dev/posts/engineering/drones/">
+                    <img src="/img/posts/drone-mini.webp" alt="Μη επανδρωμένα οχήματα">
+                </a>
+                <div class="post-info">
+                    <p class="post-date">
+                        21 Jan 2025 -
+                        
+                            Χρήστος Σπυριδάκης
+                        
+                    </p>
+                    <h3 class="post-title">Μη επανδρωμένα οχήματα</h3>
+                    <p class="post-summary">Ποιες είναι οι διάφορες κατηγορίες drones και μπορούν να χρησιμοποιηθούν για κάτι πέρα από τη λήψη βίντεο;</p>
+                    <div class="post-tags">
+                        
+                        <a href="/tags/uav" class="tag" style="text-decoration: none;color:inherit">UAV</a>
+                        
+                        <a href="/tags/vtol" class="tag" style="text-decoration: none;color:inherit">VTOL</a>
+                        
+                    </div>
+                </div>
+            </article>
+        
+            <article class="post">
+                <a href="https://stemerot.pages.dev/posts/psychology/stupid-people/">
+                    <img src="/img/posts/person-think.webp" alt="Μήπως όλοι σκεφτόμαστε με χαζό τρόπο;">
+                </a>
+                <div class="post-info">
+                    <p class="post-date">
+                        21 Jan 2025 -
+                        
+                            Χρήστος Σπυριδάκης
+                        
+                    </p>
+                    <h3 class="post-title">Μήπως όλοι σκεφτόμαστε με χαζό τρόπο;</h3>
+                    <p class="post-summary">Είναι ένα άτομο με υψηλό IQ έξυπνο σε όλους τους τομείς της ζωής του;</p>
+                    <div class="post-tags">
+                        
+                        <a href="/tags/dunning-kruger" class="tag" style="text-decoration: none;color:inherit">Dunning Kruger</a>
+                        
+                    </div>
+                </div>
+            </article>
+        
+            <article class="post">
+                <a href="https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/">
+                    <img src="/img/posts/laptop-and-code.webp" alt="Η μεγάλη μάχη των λειτουργικών συστημάτων">
+                </a>
+                <div class="post-info">
+                    <p class="post-date">
+                        20 Jan 2025 -
+                        
+                            Χρήστος Σπυριδάκης
+                        
+                    </p>
+                    <h3 class="post-title">Η μεγάλη μάχη των λειτουργικών συστημάτων</h3>
+                    <p class="post-summary">Ποιο λειτουργικό είναι καλύτερο να χρησιμοποιείς;</p>
+                    <div class="post-tags">
+                        
+                        <a href="/tags/os" class="tag" style="text-decoration: none;color:inherit">OS</a>
+                        
+                        <a href="/tags/mac" class="tag" style="text-decoration: none;color:inherit">Mac</a>
+                        
+                        <a href="/tags/linux" class="tag" style="text-decoration: none;color:inherit">Linux</a>
+                        
+                        <a href="/tags/windows" class="tag" style="text-decoration: none;color:inherit">Windows</a>
+                        
+                    </div>
+                </div>
+            </article>
+        
+            <article class="post">
+                <a href="https://stemerot.pages.dev/posts/engineering/security/tee/">
+                    <img src="/img/posts/lock-digital.webp" alt="Ασφάλεια στην εκτέλεση προγραμμάτων">
+                </a>
+                <div class="post-info">
+                    <p class="post-date">
+                        19 Jan 2025 -
+                        
+                            Χρήστος Σπυριδάκης
+                        
+                    </p>
+                    <h3 class="post-title">Ασφάλεια στην εκτέλεση προγραμμάτων</h3>
+                    <p class="post-summary">Πώς μπορούν οι εφαρμογές να εκτελούνται με ασφάλεια στις συσκευές, ακόμη και αν αυτές έχουν παραβιαστεί;</p>
+                    <div class="post-tags">
+                        
+                        <a href="/tags/tee" class="tag" style="text-decoration: none;color:inherit">TEE</a>
+                        
+                        <a href="/tags/encryption" class="tag" style="text-decoration: none;color:inherit">Encryption</a>
+                        
+                    </div>
+                </div>
+            </article>
+        
+            <article class="post">
+                <a href="https://stemerot.pages.dev/posts/engineering/localization/camera-pose-estimation/">
+                    <img src="/img/posts/ai-eye.webp" alt="Χρήση κάμερας για τον υπολογισμό της θέσης">
+                </a>
+                <div class="post-info">
+                    <p class="post-date">
+                        19 Jan 2025 -
+                        
+                            Χρήστος Σπυριδάκης
+                        
+                    </p>
+                    <h3 class="post-title">Χρήση κάμερας για τον υπολογισμό της θέσης</h3>
+                    <p class="post-summary">Πώς μπορούμε, με μία κάμερα, να εκτιμήσουμε τη θέση μας στον χώρο;</p>
+                    <div class="post-tags">
+                        
+                        <a href="/tags/camera" class="tag" style="text-decoration: none;color:inherit">Camera</a>
+                        
+                        <a href="/tags/stereo-vision" class="tag" style="text-decoration: none;color:inherit">Stereo Vision</a>
+                        
+                        <a href="/tags/structure-from-reference" class="tag" style="text-decoration: none;color:inherit">Structure from Reference</a>
+                        
+                    </div>
+                </div>
+            </article>
+        
+    </div>
+</section>
+
+
+<section class="section-about">
+    <div class="about-container">
+        <h2>Το όραμα μας</h2>
+        <p>
+            Η ομάδα του Stemerot έχει ως όραμα να εμπνεύσει και να ενδυναμώσει τα άτομα στον κόσμο 
+            της τεχνολογίας και της καινοτομίας. Στόχος μας είναι να καλλιεργήσουμε μια κοινότητα όπου 
+            η γνώση μοιράζεται και η περιέργεια ανταμείβεται. 
+        </p>
+        <h2>Οι στόχοι μας</h2>
+        <p>
+            Να παρέχουμε προσιτό, ελκυστικό και ενημερωμένο περιεχόμενο, το οποίο, με απλό και κατανοητό 
+            τρόπο, ενημερώνει και συμβάλλει στη μείωση του χάσματος μεταξύ αρχαρίων και ειδικών στα πεδία STEM. 
+        </p>
+    </div>
+</section>
+
+
+<section class="newsletter-section">
+    <div class="newsletter-container">
+        <h2>Εγγραφείτε στο Newsletter!</h2>
+        <p>Θέλεις να μην χάνεις κανένα νέο από την κοινότητα του Stemerot.</p>
+        <p>Κάνε εγγραφή στο newsletter μας, και κάθε εβδομάδα θα σου στέλνουμε ένα e-mail με όλα τα νέα που έχουμε.</p>
+        <form class="newsletter-form" action="https://usebasin.com/f/3885f27a614d" method="POST" enctype="multipart/form-data" id="form">
+            <label for="newsletter-first-name">Όνομα</label>
+            <input 
+                type="text" 
+                id="newsletter-first-name" 
+                name="newsletter-first-name" 
+                placeholder="First Name"
+            />
+
+            <label for="newsletter-lastname">Επώνυμο</label>
+            <input 
+                type="text" 
+                id="newsletter-lastname" 
+                name="newsletter-lastname" 
+                placeholder="Last Name"
+            />
+
+            <label for="newsletter-email">Email *</label>
+            <input 
+                type="email" 
+                id="newsletter-email" 
+                name="newsletter-email" 
+                placeholder="Email Address" 
+                required 
+            />
+
+            
+            <div>
+                <input
+                    type="checkbox"
+                    id="newsletter-terms-agreement"
+                    name="newsletter-terms-agreement"
+                    required
+                />
+                <label for="newsletter-terms-agreement">
+                    Συμφωνώ να λαμβάνω ενημερωτικά δελτία (newsletters) από την κοινότητα 
+                    Stemerot και παρέχω τη συγκατάθεσή μου για την επεξεργασία των 
+                    προσωπικών μου δεδομένων για σκοπούς ενημέρωσης και προώθησης.
+                </label>
+            </div>
+            
+            <div>
+                <input
+                    type="checkbox"
+                    id="contact-usebasin-agreement"
+                    name="contact-usebasin-agreement"
+                    required
+                />
+                <label for="contact-usebasin-agreement">
+                    Συμφωνώ να μοιραστώ τα στοιχεία μου μέσω της υπηρεσίας <a href="https://usebasin.com" style="color:inherit">Basin</a>, προκειμένου να εγγραφώ στο newsletter του Stemerot.
+                </label>
+            </div>
+            
+            
+            <br>
+
+            <div>
+                <label for="contact-agreement-notes">
+                   * Οποιαδήποτε στιγμή επιθυμείτε να σταματήσετε να λαμβάνεται ενημερωτικό υλικό από το Stemerot, στείλτε ένα μήνυμα με το αίτημα σας στο <a href="mailto:admin@stemerot.com" style="color:inherit">admin@stemerot.com</a>.
+                </label>
+                <a href="/privacy/" style="color: inherit;" target="_blank">Πολιτική Απορρήτου</a>
+            </div>
+
+            <button type="submit">Εγγραφή</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-links">
+      <h3>Σχετικά με εμάς</h3>
+      <ul>
+        <li><a href="/about/">Ποιοί είμαστε;</a></li>
+        <li><a href="/authors/">Αρθρογράφοι</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h3>Ακολούθησε μας</h3>
+      <ul class="footer-icons-ul">
+        <li><a href="https://www.linkedin.com/groups/10055272/"><img class="footer-icons" src="/img/social/linkedin-icon.svg" alt="Linkedin icon"/></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100090351596163"><img class="footer-icons" src="/img/social/facebook-icon.svg" alt="Facebook icon"/></a></li>
+        <li><a href="https://www.instagram.com/stemerot/"><img class="footer-icons" src="/img/social/instagram-icon.svg" alt="Instagram icon"/></a></li>
+        <li><a href="https://open.spotify.com/user/31v3opcsq57nt4eg4hsbm5s6nfny"><img class="footer-icons" src="/img/social/spotify-icon.svg" alt="Spotify icon"/></a></li>
+        <li><a href="https://discord.gg/M7c22wa7"><img class="footer-icons" src="/img/social/discord-icon.svg" alt="Spotify icon"/></a></li>
+        <li><a href="https://www.youtube.com/@stemerot"><img class="footer-icons" src="/img/social/youtube-icon.svg" alt="Youtube icon"/></a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h3>Επικοινωνία</h3>
+      <ul>
+        <li><a href="mailto:info@stemerot.com">E-mail</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/privacy">Πολιτική Απορρήτου</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    Stemerot &copy; 2025. All rights reserved.
+  </div>
+</footer>
+  <div id="cookie-consent-banner" class="cookie-banner" style="display: none;">
+  <p>
+    Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία σας, να εμφανίζουμε εξατομικευμένες διαφημίσεις και να αναλύουμε την κίνηση. 
+    Για περισσότερες λεπτομέρειες σχετικά με τη διαχείριση των προσωπικών σας δεδομένων, δείτε την 
+    <a href="/privacy/" style="color: inherit;" target="_blank">Πολιτική Απορρήτου</a>.
+  </p>
+  <button id="accept-all-cookies">Αποδοχή όλων</button>
+  <button id="accept-mandatory-cookies">Αποδοχή μόνο των απαραίτητων</button>
+</div>
+
+  
+<script>
+
+
+window.addEventListener('DOMContentLoaded', function() {
+    var cookieConsent = localStorage.getItem('cookieConsent');
+    var banner = document.getElementById('cookie-consent-banner');
+
+    
+    if (!cookieConsent) {
+        banner.style.display = 'block';
+        } else if (cookieConsent === 'accepted-all') {
+           
+        loadGoogleAnalytics();
+        loadGoogleAdSense();
+    }
+});
+
+    
+    document.getElementById('accept-all-cookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'accepted-all');
+    document.getElementById('cookie-consent-banner').style.display = 'none';
+
+    
+    loadGoogleAnalytics();
+    loadGoogleAdSense();
+});
+
+    
+    document.getElementById('accept-mandatory-cookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'accepted-mandatory');
+    document.getElementById('cookie-consent-banner').style.display = 'none';
+
+        
+});
+
+
+
+function loadGoogleAnalytics() {
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-2JQ9H53HHS';
+    document.head.appendChild(gaScript);
+
+    gaScript.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-2JQ9H53HHS', { 'anonymize_ip': true });
+    };
+}
+
+
+
+function loadGoogleAdSense() {
+    var adsScript = document.createElement('script');
+    adsScript.async = true;
+    adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5957385556386219';
+    adsScript.crossorigin = 'anonymous';
+    document.head.appendChild(adsScript);
+}
+</script>
+  
+<script>
+document.getElementById('menu-toggle').addEventListener('click', function () {
+    const nav = document.getElementById('main-nav');
+    nav.classList.toggle('active'); 
+});
+
+let lastScrollPosition = 0;
+const header = document.querySelector('.site-header');
+
+window.addEventListener('scroll', () => {
+    const currentScrollPosition = window.scrollY;
+
+    if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
+        
+        header.style.transform = 'translateY(-100%)';
+    } else {
+        
+        header.style.transform = 'translateY(0)';
+    }
+
+    lastScrollPosition = currentScrollPosition;
+});
+</script>
+
+<script>
+document.getElementById('menu-toggle').addEventListener('click', function () {
+    const nav = document.getElementById('main-nav');
+    nav.classList.toggle('active'); 
+});
+
+let lastScrollPosition = 0;
+const header = document.querySelector('.site-header');
+
+window.addEventListener('scroll', () => {
+    const currentScrollPosition = window.scrollY;
+
+    if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
+        
+        header.style.transform = 'translateY(-100%)';
+    } else {
+        
+        header.style.transform = 'translateY(0)';
+    }
+
+    lastScrollPosition = currentScrollPosition;
+});
+</script>
+
+<script>
+
+const themeToggleBtn = document.getElementById("toggle-theme");
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme === "dark") {
+    document.body.classList.add("dark-theme");
+}
+themeToggleBtn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+    localStorage.setItem("theme", "dark");
+    } else {
+    localStorage.setItem("theme", "light");
+    }
+});
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  let searchInput = document.getElementById("search-input");
+  let resultsContainer = document.getElementById("search-results");
+  if (!searchInput) return;
+  
+  
+  resultsContainer.style.width = "400px"; 
+  
+  
+  fetch("/index.json")
+    .then(response => response.json())
+    .then(data => {
+      
+      let idx = lunr(function () {
+        this.ref("url");
+        this.field("title");
+        this.field("summary");
+        this.field("description");
+        this.field("category");
+        data.forEach(doc => this.add(doc));
+      });
+      
+      
+      
+      
+      function createSnippet(text, term) {
+        let regex = new RegExp("(.{0,30})(" + term + ")(.{0,30})", "i");
+        let match = text.match(regex);
+        if (match) {
+          return (match[1] || "") + match[2] + (match[3] || "");
+        }
+        return "";
+      }
+      
+      searchInput.addEventListener("input", function () {
+        
+        let query = this.value.trim().toLowerCase();
+        
+        
+        resultsContainer.innerHTML = "";
+        resultsContainer.style.display = "none";
+        
+        if (query.length < 2) return;
+        resultsContainer.style.display = "block";
+        
+        
+        
+        let results = idx.query(function(q) {
+          let fields = ["title", "summary", "description", "category"];
+          fields.forEach(function(field) {
+            q.term(query, {
+              fields: [field],
+              
+              wildcard: lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING
+            });
+          });
+        });
+        
+        
+        results.slice(0, 5).forEach(result => {
+          let item = data.find(d => d.url === result.ref);
+          if (!item) return;
+          
+          
+          let snippetHTML = "";
+          if (result.matchData && result.matchData.metadata) {
+            for (let term in result.matchData.metadata) {
+              let termData = result.matchData.metadata[term];
+              for (let field in termData) {
+                if (item[field]) {
+                  let snippet = createSnippet(item[field], term);
+                  if (snippet) {
+                    snippetHTML += snippet + "<br>";
+                  }
+                }
+              }
+            }
+          }
+          
+          
+          
+          
+          let div = document.createElement("div");
+          div.style.marginBottom = "1rem";
+          div.innerHTML = `
+            <a href="${item.url}" style="text-decoration: none;">
+              <strong>${item.title}</strong>
+            </a>
+            <div style="font-size: 0.8rem; font-weight: normal; color: #555; margin-top: 0.25rem;">
+              ${snippetHTML}
+            </div>
+          `;
+          resultsContainer.appendChild(div);
+        });
+        
+        
+        if (results.length === 0) {
+          resultsContainer.innerHTML = "<p>Δεν βρέθηκαν αποτελέσματα.</p>";
+        }
+      });
+    })
+    .catch(err => console.error("Error loading search index:", err));
+});
+</script>
+
+
+</body>
+</html>
