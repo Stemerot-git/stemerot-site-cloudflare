@@ -58,6 +58,13 @@
       <description>Λεπτομέρειες των αλγορίθμων που χρησιμοποιούμε για τον υπολογισμό της θέσης ενός αντικειμένου στον 3D χώρο.</description>
     </item>
     <item>
+      <title>Τεχνικές υπολογισμού της θέσης αντικειμένων</title>
+      <link>https://stemerot.pages.dev/posts/engineering/localization/position-computation/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/posts/engineering/localization/position-computation/</guid>
+      <description>Ποια είναι τα μαθηματικά πίσω από τον υπολογισμό της θέσης αντικειμένων, δηλαδή τεχνικών όπως αυτές που χρησιμοποιεί το GPS;</description>
+    </item>
+    <item>
       <title>Εκτίμηση απόστασης/γωνίας μεταξύ αντικειμένων</title>
       <link>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
