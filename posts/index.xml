@@ -18,14 +18,21 @@
     <item>
       <title>Η μεγάλη μάχη των λειτουργικών</title>
       <link>https://stemerot.pages.dev/posts/technology/pc-vs-mac-vs-linux/</link>
-      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://stemerot.pages.dev/posts/technology/pc-vs-mac-vs-linux/</guid>
       <description>Ποιό λειτουργικό είναι καλύτερο να χρησιμοποιείες;</description>
     </item>
     <item>
+      <title>Ασφάλεια στην εκτέλεση προγραμμάτων</title>
+      <link>https://stemerot.pages.dev/posts/engineering/security/tee/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/posts/engineering/security/tee/</guid>
+      <description>Πώς γίνεται εφαρμογές να τρέχουν με ασφάλεια στις συσκευές</description>
+    </item>
+    <item>
       <title>Τεχνικές υπολογισμού της θέσης</title>
       <link>https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/</guid>
       <description>Ποιές τεχνικές υπολογισμού θέσης υπάρχουν, έχοντας γνώση αποστάσεων ή γωνιών σε ένα σύστημα.</description>
     </item>

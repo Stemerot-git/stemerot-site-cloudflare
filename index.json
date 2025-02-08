@@ -11,6 +11,12 @@
     "description": "Ποιό λειτουργικό είναι καλύτερο να χρησιμοποιείες;",
     "category": "posts"
   },{
+    "title": "Ασφάλεια στην εκτέλεση προγραμμάτων",
+    "url": "https://stemerot.pages.dev/posts/engineering/security/tee/",
+    "summary": "Πώς γίνεται εφαρμογές να τρέχουν με ασφάλεια στις συσκευές",
+    "description": "",
+    "category": "posts"
+  },{
     "title": "Τεχνικές υπολογισμού της θέσης",
     "url": "https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/",
     "summary": "Ποιές τεχνικές υπολογισμού θέσης υπάρχουν, έχοντας γνώση αποστάσεων ή γωνιών σε ένα σύστημα.",
