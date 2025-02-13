@@ -10,7 +10,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/bundle.min.e1badee702724c574a880374d91c73934cd3cce77226abcb27366c1d6fbb1e1e.css" integrity="sha256-4bre5wJyTFdKiAN02Rxzk0zTzOdyJqvLJzZsHW&#43;7Hh4=">
+  <link rel="stylesheet" href="/css/bundle.min.6fe8bfede5b0a36254c7323ea77c23618815ce5a1bf2a62be979ba73a0232dc5.css" integrity="sha256-b&#43;i/7eWwo2JUxzI&#43;p3wjYYgVzlob8qYr6Xm6c6AjLcU=">
   
   
 </head>
@@ -43,12 +43,18 @@
         <li><a href="/eshop/">Shop</a></li>
         <li><a href="/courses/">Courses</a></li>
         <li><a href="/about/">About</a></li>
+        <li class="mobile-search-container">
+          <div class="search-bar mobile-search">
+              <input class="search-input" type="search" placeholder="🔍 Αναζήτηση..." />
+              <div class="search-results"></div>
+          </div>
+        </li>
       </ul>
     </nav>
     <div class="search-and-toggle">
-      <div class="search-bar">
-        <input id="search-input" type="search" placeholder="🔍 Αναζήτηση..." />
-        <div id="search-results"></div>
+      <div class="search-bar desktop-search">
+        <input class="search-input" type="search" placeholder="🔍 Αναζήτηση..." />
+        <div class="search-results"></div>
       </div>
       
       <button id="toggle-theme" aria-label="Toggle theme">◐</button>
@@ -377,7 +383,7 @@
             />
 
             
-            <div>
+            <div style="text-align: justify;">
                 <input
                     type="checkbox"
                     id="newsletter-terms-agreement"
@@ -513,35 +519,23 @@ function loadGoogleAdSense() {
     document.head.appendChild(adsScript);
 }
 </script>
-  
-<script>
+  <script>
+
 document.getElementById('menu-toggle').addEventListener('click', function () {
     const nav = document.getElementById('main-nav');
     nav.classList.toggle('active'); 
 });
 
-let lastScrollPosition = 0;
-const header = document.querySelector('.site-header');
 
-window.addEventListener('scroll', () => {
-    const currentScrollPosition = window.scrollY;
-
-    if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
-        
-        header.style.transform = 'translateY(-100%)';
-    } else {
-        
-        header.style.transform = 'translateY(0)';
+document.addEventListener('click', function(e) {
+    const nav = document.getElementById('main-nav');
+    const menuToggle = document.getElementById('menu-toggle');
+    
+    if (nav.classList.contains('active') && 
+        !nav.contains(e.target) && 
+        !menuToggle.contains(e.target)) {
+        nav.classList.remove('active');
     }
-
-    lastScrollPosition = currentScrollPosition;
-});
-</script>
-
-<script>
-document.getElementById('menu-toggle').addEventListener('click', function () {
-    const nav = document.getElementById('main-nav');
-    nav.classList.toggle('active'); 
 });
 
 let lastScrollPosition = 0;
@@ -579,113 +573,173 @@ themeToggleBtn.addEventListener("click", function () {
 });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"></script>
+
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  let searchInput = document.getElementById("search-input");
-  let resultsContainer = document.getElementById("search-results");
-  if (!searchInput) return;
+
+document.getElementById('menu-toggle').addEventListener('click', function () {
+    const nav = document.getElementById('main-nav');
+    nav.classList.toggle('active'); 
+});
+
+
+document.addEventListener('click', function(e) {
+    const nav = document.getElementById('main-nav');
+    const menuToggle = document.getElementById('menu-toggle');
+    if (nav.classList.contains('active') && 
+        !nav.contains(e.target) && 
+        !menuToggle.contains(e.target)) {
+        nav.classList.remove('active');
+    }
+});
+
+let lastScrollPosition = 0;
+const header = document.querySelector('.site-header');
+
+window.addEventListener('scroll', () => {
+    const currentScrollPosition = window.scrollY;
+
+    if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
+        
+        header.style.transform = 'translateY(-100%)';
+    } else {
+        
+        header.style.transform = 'translateY(0)';
+    }
+
+    lastScrollPosition = currentScrollPosition;
+});
+</script>
+
+
+<script>
+const themeToggleBtn = document.getElementById("toggle-theme");
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme === "dark") {
+    document.body.classList.add("dark-theme");
+}
+themeToggleBtn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
+    }
+});
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
   
-  
-  resultsContainer.style.width = "400px"; 
-  
+  const searchInputs = document.querySelectorAll(".search-input");
+  if (searchInputs.length === 0) return;
+
   
   fetch("/index.json")
     .then(response => response.json())
     .then(data => {
+      const options = {
+        keys: ['title', 'summary', 'category', 'content'],
+        includeScore: true,
+        includeMatches: true,
+        threshold: 0.4, 
+      };
+      const fuse = new Fuse(data, options);
+
       
-      let idx = lunr(function () {
-        this.ref("url");
-        this.field("title");
-        this.field("summary");
-        this.field("description");
-        this.field("category");
-        data.forEach(doc => this.add(doc));
-      });
-      
-      
-      
-      
-      function createSnippet(text, term) {
-        let regex = new RegExp("(.{0,30})(" + term + ")(.{0,30})", "i");
-        let match = text.match(regex);
-        if (match) {
-          return (match[1] || "") + match[2] + (match[3] || "");
-        }
-        return "";
-      }
-      
-      searchInput.addEventListener("input", function () {
+      function handleSearchInput(e) {
+        const input = e.target;
         
-        let query = this.value.trim().toLowerCase();
-        
-        
+        const resultsContainer = input.nextElementSibling;
+        const query = input.value.trim();
         resultsContainer.innerHTML = "";
-        resultsContainer.style.display = "none";
-        
-        if (query.length < 2) return;
+        if (query.length < 2) {
+          resultsContainer.style.display = "none";
+          return;
+        }
         resultsContainer.style.display = "block";
         
+        resultsContainer.style.width = "400px";
+
+        const fuseResults = fuse.search(query);
+
         
-        
-        let results = idx.query(function(q) {
-          let fields = ["title", "summary", "description", "category"];
-          fields.forEach(function(field) {
-            q.term(query, {
-              fields: [field],
-              
-              wildcard: lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING
-            });
-          });
-        });
-        
-        
-        results.slice(0, 5).forEach(result => {
-          let item = data.find(d => d.url === result.ref);
-          if (!item) return;
-          
-          
+        fuseResults.slice(0, 5).forEach(result => {
+          const item = result.item;
           let snippetHTML = "";
-          if (result.matchData && result.matchData.metadata) {
-            for (let term in result.matchData.metadata) {
-              let termData = result.matchData.metadata[term];
-              for (let field in termData) {
-                if (item[field]) {
-                  let snippet = createSnippet(item[field], term);
-                  if (snippet) {
-                    snippetHTML += snippet + "<br>";
+          if (result.matches && Array.isArray(result.matches)) {
+            for (const match of result.matches) {
+              if (match.indices && match.indices.length > 0) {
+                const fieldName = match.key;
+                const fieldText = item[fieldName] || "";
+                if (fieldText) {
+                  const [start, end] = match.indices[0];
+                  const contextBefore = 30;
+                  const contextAfter = 30;
+                  const snippetStart = Math.max(0, start - contextBefore);
+                  const snippetEnd = Math.min(fieldText.length, end + contextAfter);
+                  let snippet = fieldText.substring(snippetStart, snippetEnd);
+                  if (snippetStart > 0) {
+                    snippet = "..." + snippet;
                   }
+                  if (snippetEnd < fieldText.length) {
+                    snippet = snippet + "...";
+                  }
+                  const matchText = fieldText
+                    .substring(start, end + 1)
+                    .replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                  const regexHighlight = new RegExp("(" + matchText + ")", "gi");
+                  snippetHTML = snippet.replace(regexHighlight, "<strong>$1</strong>");
+                  break; 
                 }
               }
             }
           }
           
-          
-          
-          
-          let div = document.createElement("div");
+          const div = document.createElement("div");
           div.style.marginBottom = "1rem";
           div.innerHTML = `
             <a href="${item.url}" style="text-decoration: none;">
-              <strong>${item.title}</strong>
+              <strong style="color:#000">${item.title}</strong>
+              <div style="font-size: 0.8rem; font-weight: normal; color: #444; margin-top: 0.25rem;">
+                ${snippetHTML}
+              </div>
             </a>
-            <div style="font-size: 0.8rem; font-weight: normal; color: #555; margin-top: 0.25rem;">
-              ${snippetHTML}
-            </div>
           `;
           resultsContainer.appendChild(div);
         });
         
-        
-        if (results.length === 0) {
-          resultsContainer.innerHTML = "<p>Δεν βρέθηκαν αποτελέσματα.</p>";
+        if (fuseResults.length === 0) {
+          resultsContainer.innerHTML = "<p style=\"color:#333\">Δεν βρέθηκαν αποτελέσματα.</p>";
         }
+      }
+      
+      
+      searchInputs.forEach(input => {
+        input.addEventListener("input", handleSearchInput);
+        input.addEventListener("focus", function(){
+          if (input.value.trim().length >= 2) {
+            input.nextElementSibling.style.display = "block";
+          }
+        });
+      });
+      
+      
+      document.addEventListener("click", function(e) {
+        searchInputs.forEach(input => {
+          const resultsContainer = input.nextElementSibling;
+          if (!input.contains(e.target) && !resultsContainer.contains(e.target)) {
+            resultsContainer.style.display = "none";
+          }
+        });
       });
     })
     .catch(err => console.error("Error loading search index:", err));
 });
 </script>
-
+  
 
 </body>
 </html>
