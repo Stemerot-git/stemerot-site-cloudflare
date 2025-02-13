@@ -146,23 +146,31 @@
     
 
     <div class="post-content-body">
-      <br>
-<p>Σε προηγούμενο άρθρο, γεννήθηκε η απορία για το πώς στο καλό δουλεύει το GPS&hellip; Αν έχεις απορία σε ποιό άρθρο έγινε η εισαγωγή.. Διάβασε αυτό <a href="/posts/engineering/localization/localization">εδώ</a> και θα καταλάβεις 😉.</p>
-<br>
+      <p>Σε προηγούμενο άρθρο, γεννήθηκε η απορία για το πώς στο καλό μπορεί να δουλεύει το GPS&hellip; Αν έχεις απορία σε ποιό άρθρο έγινε η εισαγωγή&hellip; Διάβασε αυτό <a href="/posts/engineering/localization/localization-system">εδώ</a> και θα καταλάβεις 😉.</p>
 <p>Ένα από τα σημαντικότερα μέρη ενός συστήματος εντοπισμού θέσης, είναι αυτό του υπολογισμού αποστάσεων και γωνιών. Γνωρίζοντας τέτοιου είδους πληροφορίες, μπορούν να χρησιμοποιηθούν έξυπνες μαθηματικές τεχνικές για να βρούμε την θέση αντικειμένων στον χώρο και τελικά να βάλουμε στο νέο next gen phone ένα ultra ακριβές GPS&hellip;</p>
-<pre class="mermaid">%%{init: {&#39;theme&#39;:&#39;neutral&#39;}}%%
-graph LR
+<h2 id="εκτίμηση-απόστασης">Εκτίμηση Απόστασης</h2>
+<h3 id="1-received-signal-strength">1. Received Signal Strength</h3>
+<p>$$
+P_r(d)=\frac{P_tG_tG_r\lambda^2}{(4\pi)^2d^2}
+$$</p>
+<p>$$
+P_r(d)=C_f\frac{P_t}{d^2}
+$$</p>
+<p>$$
+P[dBm]= 10\cdot log_{10}\left(\frac{P[mW]}{1[mW]}\right)
+$$
+$$
+\quad \quad P[mW] = 10^\frac{(P[dBm])}{10}
+$$</p>
+<figure class="custom-figure" style="margin: 0; padding: 0;">
+  <img src="https://figures.semanticscholar.org/8b7669850aecaa7b4f8a1b774f260bff24b20ef6/3-Figure2-1.png" alt="RSSI relationship to distance" class="" style="max-height:400px">
+    <figcaption class="figure-caption" style="margin-top: 0.1em; font-size: 0.85em; color: #555;">
+      <a href="https://www.semanticscholar.org/paper/Adaptive-Distance-Estimation-Based-on-RSSI-in-802-.-Botta-Simek/8b7669850aecaa7b4f8a1b774f260bff24b20ef6" style="">URL</a>
+    </figcaption>
+</figure>
+<h2 id="-παραπομπές">🔗 Παραπομπές</h2>
+<p>[1] Christos Spyridakis, &ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms&rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 <a href="https://doi.org/10.26233/heallink.tuc.91531">https://doi.org/10.26233/heallink.tuc.91531</a></p>
 
-subgraph local[Localization system]
-direction LR 
-
-end
-
-## 🔗 Παραπομπές
-[1] Christos Spyridakis, &#34;Design and implementation of a low cost embedded system for localization of drones flying in swarms&#34;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531
-</pre>
-
-    
     </div>
 
     <br>
@@ -184,7 +192,7 @@ end
           <a href="/author/cspyridakis/" style="text-decoration: none;color:inherit">
             <h4>Χρήστος Σπυριδάκης</a></h4>
           </a>
-          <p>Ο Χρήστος είναι ο ιδρυτής του Stemerot, ένας μηχανικός με αγάπη για θέματα που αφορούν τον ευρύτερο κλάδο του STEM που του αρέσει να ασχολείται συνέχεια με νέες τεχνολογίες.</p>
+          <p>Ο Χρήστος είναι ο ιδρυτής του Stemerot, ένας μηχανικός με αγάπη για θέματα που αφορούν τον ευρύτερο κλάδο του STEM και του αρέσει να ασχολείται συνέχεια με νέες τεχνολογίες.</p>
         </div>
         <div class="author-single-social">
             
@@ -766,11 +774,6 @@ end
     </div>
 </section>
 
-
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-  </script>
 
 
 
