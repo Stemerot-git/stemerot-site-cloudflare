@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TOA on Stemerot</title>
-    <link>https://stemerot.pages.dev/tags/toa/</link>
+    <link>http://stemerot.com/tags/toa/</link>
     <description>Recent content in TOA on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/tags/toa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/tags/toa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Εκτίμηση απόστασης/γωνίας μεταξύ αντικειμένων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</link>
+      <link>http://stemerot.com/posts/engineering/localization/distance-angle-estimation/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/distance-angle-estimation/</guid>
       <description>Πώς μπορούμε να χρησιμοποιήσουμε ηλεκτρομαγνητικά ή ακουστικά σήματα για να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων;</description>
     </item>
   </channel>

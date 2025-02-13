@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Σχετικά με εμάς on Stemerot</title>
-    <link>https://stemerot.pages.dev/about/</link>
+    <link>http://stemerot.com/about/</link>
     <description>Recent content in Σχετικά με εμάς on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://stemerot.pages.dev/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

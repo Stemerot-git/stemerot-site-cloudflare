@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Συγγραφείς on Stemerot</title>
-    <link>https://stemerot.pages.dev/authors/</link>
+    <link>http://stemerot.com/authors/</link>
     <description>Recent content in Συγγραφείς on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://stemerot.pages.dev/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

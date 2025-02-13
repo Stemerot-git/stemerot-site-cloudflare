@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Encryption on Stemerot</title>
-    <link>https://stemerot.pages.dev/tags/encryption/</link>
+    <link>http://stemerot.com/tags/encryption/</link>
     <description>Recent content in Encryption on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ασφάλεια στην εκτέλεση προγραμμάτων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/security/tee/</link>
+      <link>http://stemerot.com/posts/engineering/security/tee/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/security/tee/</guid>
+      <guid>http://stemerot.com/posts/engineering/security/tee/</guid>
       <description>Πώς μπορούν οι εφαρμογές να εκτελούνται με ασφάλεια στις συσκευές, ακόμη και αν αυτές έχουν παραβιαστεί;</description>
     </item>
   </channel>

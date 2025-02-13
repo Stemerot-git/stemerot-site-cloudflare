@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GPS on Stemerot</title>
-    <link>https://stemerot.pages.dev/tags/gps/</link>
+    <link>http://stemerot.com/tags/gps/</link>
     <description>Recent content in GPS on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/tags/gps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/tags/gps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Αλγόριθμοι υπολογισμού θέσης αντικειμένων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/</link>
+      <link>http://stemerot.com/posts/engineering/localization/localization-algorithms/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/localization-algorithms/</guid>
       <description>Λεπτομέρειες των αλγορίθμων που χρησιμοποιούμε για τον υπολογισμό της θέσης ενός αντικειμένου στον 3D χώρο.</description>
     </item>
     <item>
       <title>Εκτίμηση απόστασης/γωνίας μεταξύ αντικειμένων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</link>
+      <link>http://stemerot.com/posts/engineering/localization/distance-angle-estimation/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/distance-angle-estimation/</guid>
       <description>Πώς μπορούμε να χρησιμοποιήσουμε ηλεκτρομαγνητικά ή ακουστικά σήματα για να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων;</description>
     </item>
     <item>
       <title>Μα καλά, πώς δουλεύει το GPS;</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/localization-system/</link>
+      <link>http://stemerot.com/posts/engineering/localization/localization-system/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/localization-system/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/localization-system/</guid>
       <description>Καθημερινά χρησιμοποιούμε εφαρμογές όπως το Gmaps για να μετακινηθούμε από το ένα σημείο στο άλλο. Πώς, όμως, λειτουργεί αυτό;</description>
     </item>
   </channel>
