@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Stemerot</title>
-    <link>https://stemerot.pages.dev/tags/linux/</link>
+    <link>http://stemerot.com/tags/linux/</link>
     <description>Recent content in Linux on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Η μεγάλη μάχη των λειτουργικών συστημάτων</title>
-      <link>https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/</link>
+      <link>http://stemerot.com/posts/technology/os/pc-vs-mac-vs-linux/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/</guid>
+      <guid>http://stemerot.com/posts/technology/os/pc-vs-mac-vs-linux/</guid>
       <description>Ποιο λειτουργικό είναι καλύτερο να χρησιμοποιείς;</description>
     </item>
   </channel>

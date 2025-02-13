@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Stemerot</title>
-    <link>https://stemerot.pages.dev/tags/</link>
+    <link>http://stemerot.com/tags/</link>
     <description>Recent content in Tags on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maths</title>
-      <link>https://stemerot.pages.dev/tags/maths/</link>
+      <link>http://stemerot.com/tags/maths/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/maths/</guid>
+      <guid>http://stemerot.com/tags/maths/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>https://stemerot.pages.dev/tags/music/</link>
+      <link>http://stemerot.com/tags/music/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/music/</guid>
+      <guid>http://stemerot.com/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://stemerot.pages.dev/tags/ai/</link>
+      <link>http://stemerot.com/tags/ai/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/ai/</guid>
+      <guid>http://stemerot.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM</title>
-      <link>https://stemerot.pages.dev/tags/llm/</link>
+      <link>http://stemerot.com/tags/llm/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/llm/</guid>
+      <guid>http://stemerot.com/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Dunning Kruger</title>
-      <link>https://stemerot.pages.dev/tags/dunning-kruger/</link>
+      <link>http://stemerot.com/tags/dunning-kruger/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/dunning-kruger/</guid>
+      <guid>http://stemerot.com/tags/dunning-kruger/</guid>
       <description></description>
     </item>
     <item>
       <title>UAV</title>
-      <link>https://stemerot.pages.dev/tags/uav/</link>
+      <link>http://stemerot.com/tags/uav/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/uav/</guid>
+      <guid>http://stemerot.com/tags/uav/</guid>
       <description></description>
     </item>
     <item>
       <title>VTOL</title>
-      <link>https://stemerot.pages.dev/tags/vtol/</link>
+      <link>http://stemerot.com/tags/vtol/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/vtol/</guid>
+      <guid>http://stemerot.com/tags/vtol/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://stemerot.pages.dev/tags/linux/</link>
+      <link>http://stemerot.com/tags/linux/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/linux/</guid>
+      <guid>http://stemerot.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Mac</title>
-      <link>https://stemerot.pages.dev/tags/mac/</link>
+      <link>http://stemerot.com/tags/mac/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/mac/</guid>
+      <guid>http://stemerot.com/tags/mac/</guid>
       <description></description>
     </item>
     <item>
       <title>OS</title>
-      <link>https://stemerot.pages.dev/tags/os/</link>
+      <link>http://stemerot.com/tags/os/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/os/</guid>
+      <guid>http://stemerot.com/tags/os/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://stemerot.pages.dev/tags/windows/</link>
+      <link>http://stemerot.com/tags/windows/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/windows/</guid>
+      <guid>http://stemerot.com/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Camera</title>
-      <link>https://stemerot.pages.dev/tags/camera/</link>
+      <link>http://stemerot.com/tags/camera/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/camera/</guid>
+      <guid>http://stemerot.com/tags/camera/</guid>
       <description></description>
     </item>
     <item>
       <title>Encryption</title>
-      <link>https://stemerot.pages.dev/tags/encryption/</link>
+      <link>http://stemerot.com/tags/encryption/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/encryption/</guid>
+      <guid>http://stemerot.com/tags/encryption/</guid>
       <description></description>
     </item>
     <item>
       <title>Stereo Vision</title>
-      <link>https://stemerot.pages.dev/tags/stereo-vision/</link>
+      <link>http://stemerot.com/tags/stereo-vision/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/stereo-vision/</guid>
+      <guid>http://stemerot.com/tags/stereo-vision/</guid>
       <description></description>
     </item>
     <item>
       <title>Structure From Reference</title>
-      <link>https://stemerot.pages.dev/tags/structure-from-reference/</link>
+      <link>http://stemerot.com/tags/structure-from-reference/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/structure-from-reference/</guid>
+      <guid>http://stemerot.com/tags/structure-from-reference/</guid>
       <description></description>
     </item>
     <item>
       <title>TEE</title>
-      <link>https://stemerot.pages.dev/tags/tee/</link>
+      <link>http://stemerot.com/tags/tee/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/tee/</guid>
+      <guid>http://stemerot.com/tags/tee/</guid>
       <description></description>
     </item>
     <item>
       <title>GPS</title>
-      <link>https://stemerot.pages.dev/tags/gps/</link>
+      <link>http://stemerot.com/tags/gps/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/gps/</guid>
+      <guid>http://stemerot.com/tags/gps/</guid>
       <description></description>
     </item>
     <item>
       <title>Multilateration</title>
-      <link>https://stemerot.pages.dev/tags/multilateration/</link>
+      <link>http://stemerot.com/tags/multilateration/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/multilateration/</guid>
+      <guid>http://stemerot.com/tags/multilateration/</guid>
       <description></description>
     </item>
     <item>
       <title>Triangulation</title>
-      <link>https://stemerot.pages.dev/tags/triangulation/</link>
+      <link>http://stemerot.com/tags/triangulation/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/triangulation/</guid>
+      <guid>http://stemerot.com/tags/triangulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Trilateration</title>
-      <link>https://stemerot.pages.dev/tags/trilateration/</link>
+      <link>http://stemerot.com/tags/trilateration/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/trilateration/</guid>
+      <guid>http://stemerot.com/tags/trilateration/</guid>
       <description></description>
     </item>
     <item>
       <title>TDOA</title>
-      <link>https://stemerot.pages.dev/tags/tdoa/</link>
+      <link>http://stemerot.com/tags/tdoa/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/tdoa/</guid>
+      <guid>http://stemerot.com/tags/tdoa/</guid>
       <description></description>
     </item>
     <item>
       <title>TOA</title>
-      <link>https://stemerot.pages.dev/tags/toa/</link>
+      <link>http://stemerot.com/tags/toa/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/tags/toa/</guid>
+      <guid>http://stemerot.com/tags/toa/</guid>
       <description></description>
     </item>
   </channel>

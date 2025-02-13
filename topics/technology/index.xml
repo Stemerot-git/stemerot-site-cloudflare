@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Stemerot</title>
-    <link>https://stemerot.pages.dev/topics/technology/</link>
+    <link>http://stemerot.com/topics/technology/</link>
     <description>Recent content in Technology on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/topics/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/topics/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Τι είναι το Deepseek;</title>
-      <link>https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/</link>
+      <link>http://stemerot.com/posts/technology/ai/llms-deepseek/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/</guid>
+      <guid>http://stemerot.com/posts/technology/ai/llms-deepseek/</guid>
       <description>Τα LLMs είναι μοντέλα τεχνητής νοημοσύνης. Είναι, όμως, επικίνδυνα;</description>
     </item>
     <item>
       <title>Η μεγάλη μάχη των λειτουργικών συστημάτων</title>
-      <link>https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/</link>
+      <link>http://stemerot.com/posts/technology/os/pc-vs-mac-vs-linux/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/</guid>
+      <guid>http://stemerot.com/posts/technology/os/pc-vs-mac-vs-linux/</guid>
       <description>Ποιο λειτουργικό είναι καλύτερο να χρησιμοποιείς;</description>
     </item>
   </channel>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Stemerot</title>
-    <link>https://stemerot.pages.dev/topics/</link>
+    <link>http://stemerot.com/topics/</link>
     <description>Recent content in Topics on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/topics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Science</title>
-      <link>https://stemerot.pages.dev/topics/science/</link>
+      <link>http://stemerot.com/topics/science/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/topics/science/</guid>
+      <guid>http://stemerot.com/topics/science/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://stemerot.pages.dev/topics/technology/</link>
+      <link>http://stemerot.com/topics/technology/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/topics/technology/</guid>
+      <guid>http://stemerot.com/topics/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>https://stemerot.pages.dev/topics/engineering/</link>
+      <link>http://stemerot.com/topics/engineering/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/topics/engineering/</guid>
+      <guid>http://stemerot.com/topics/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Psychology</title>
-      <link>https://stemerot.pages.dev/topics/psychology/</link>
+      <link>http://stemerot.com/topics/psychology/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/topics/psychology/</guid>
+      <guid>http://stemerot.com/topics/psychology/</guid>
       <description></description>
     </item>
     <item>
       <title>Localization</title>
-      <link>https://stemerot.pages.dev/topics/localization/</link>
+      <link>http://stemerot.com/topics/localization/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/topics/localization/</guid>
+      <guid>http://stemerot.com/topics/localization/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://stemerot.pages.dev/topics/security/</link>
+      <link>http://stemerot.com/topics/security/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/topics/security/</guid>
+      <guid>http://stemerot.com/topics/security/</guid>
       <description></description>
     </item>
   </channel>

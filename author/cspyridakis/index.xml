@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cspyridakis on Stemerot</title>
-    <link>https://stemerot.pages.dev/author/cspyridakis/</link>
+    <link>http://stemerot.com/author/cspyridakis/</link>
     <description>Recent content in Cspyridakis on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stemerot.pages.dev/author/cspyridakis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://stemerot.com/author/cspyridakis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Τι είναι το Deepseek;</title>
-      <link>https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/</link>
+      <link>http://stemerot.com/posts/technology/ai/llms-deepseek/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/</guid>
+      <guid>http://stemerot.com/posts/technology/ai/llms-deepseek/</guid>
       <description>Τα LLMs είναι μοντέλα τεχνητής νοημοσύνης. Είναι, όμως, επικίνδυνα;</description>
     </item>
     <item>
       <title>Μη επανδρωμένα οχήματα</title>
-      <link>https://stemerot.pages.dev/posts/engineering/drones/</link>
+      <link>http://stemerot.com/posts/engineering/drones/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/drones/</guid>
+      <guid>http://stemerot.com/posts/engineering/drones/</guid>
       <description>Ποιες είναι οι διάφορες κατηγορίες drones και μπορούν να χρησιμοποιηθούν για κάτι πέρα από τη λήψη βίντεο;</description>
     </item>
     <item>
       <title>Μήπως όλοι σκεφτόμαστε με χαζό τρόπο;</title>
-      <link>https://stemerot.pages.dev/posts/psychology/stupid-people/</link>
+      <link>http://stemerot.com/posts/psychology/stupid-people/</link>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/psychology/stupid-people/</guid>
+      <guid>http://stemerot.com/posts/psychology/stupid-people/</guid>
       <description>Είναι ένα άτομο με υψηλό IQ έξυπνο σε όλους τους τομείς της ζωής του;</description>
     </item>
     <item>
       <title>Η μεγάλη μάχη των λειτουργικών συστημάτων</title>
-      <link>https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/</link>
+      <link>http://stemerot.com/posts/technology/os/pc-vs-mac-vs-linux/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/</guid>
+      <guid>http://stemerot.com/posts/technology/os/pc-vs-mac-vs-linux/</guid>
       <description>Ποιο λειτουργικό είναι καλύτερο να χρησιμοποιείς;</description>
     </item>
     <item>
       <title>Ασφάλεια στην εκτέλεση προγραμμάτων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/security/tee/</link>
+      <link>http://stemerot.com/posts/engineering/security/tee/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/security/tee/</guid>
+      <guid>http://stemerot.com/posts/engineering/security/tee/</guid>
       <description>Πώς μπορούν οι εφαρμογές να εκτελούνται με ασφάλεια στις συσκευές, ακόμη και αν αυτές έχουν παραβιαστεί;</description>
     </item>
     <item>
       <title>Χρήση κάμερας για τον υπολογισμό της θέσης</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/camera-pose-estimation/</link>
+      <link>http://stemerot.com/posts/engineering/localization/camera-pose-estimation/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/camera-pose-estimation/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/camera-pose-estimation/</guid>
       <description>Πώς μπορούμε, με μία κάμερα, να εκτιμήσουμε τη θέση μας στον χώρο;</description>
     </item>
     <item>
       <title>Αλγόριθμοι υπολογισμού θέσης αντικειμένων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/</link>
+      <link>http://stemerot.com/posts/engineering/localization/localization-algorithms/</link>
       <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/localization-algorithms/</guid>
       <description>Λεπτομέρειες των αλγορίθμων που χρησιμοποιούμε για τον υπολογισμό της θέσης ενός αντικειμένου στον 3D χώρο.</description>
     </item>
     <item>
       <title>Τεχνικές υπολογισμού της θέσης αντικειμένων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/position-computation/</link>
+      <link>http://stemerot.com/posts/engineering/localization/position-computation/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/position-computation/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/position-computation/</guid>
       <description>Ποια είναι τα μαθηματικά πίσω από τον υπολογισμό της θέσης αντικειμένων, δηλαδή τεχνικών όπως αυτές που χρησιμοποιεί το GPS;</description>
     </item>
     <item>
       <title>Εκτίμηση απόστασης/γωνίας μεταξύ αντικειμένων</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</link>
+      <link>http://stemerot.com/posts/engineering/localization/distance-angle-estimation/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/distance-angle-estimation/</guid>
       <description>Πώς μπορούμε να χρησιμοποιήσουμε ηλεκτρομαγνητικά ή ακουστικά σήματα για να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων;</description>
     </item>
     <item>
       <title>Μα καλά, πώς δουλεύει το GPS;</title>
-      <link>https://stemerot.pages.dev/posts/engineering/localization/localization-system/</link>
+      <link>http://stemerot.com/posts/engineering/localization/localization-system/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://stemerot.pages.dev/posts/engineering/localization/localization-system/</guid>
+      <guid>http://stemerot.com/posts/engineering/localization/localization-system/</guid>
       <description>Καθημερινά χρησιμοποιούμε εφαρμογές όπως το Gmaps για να μετακινηθούμε από το ένα σημείο στο άλλο. Πώς, όμως, λειτουργεί αυτό;</description>
     </item>
   </channel>
