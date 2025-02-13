@@ -3,59 +3,69 @@
     "url": "https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/",
     "summary": "Τα LLMs είναι μοντέλα τεχνητής νοημοσύνης. Είναι, όμως, επικίνδυνα;",
     "description": "Τα LLMs είναι μοντέλα τεχνητής νοημοσύνης. Είναι, όμως, επικίνδυνα;",
-    "category": "posts"
+    "category": "posts",
+    "content": "Some title Some content\n🔗 Παραπομπές "
   },{
     "title": "Μη επανδρωμένα οχήματα",
     "url": "https://stemerot.pages.dev/posts/engineering/drones/",
     "summary": "Ποιες είναι οι διάφορες κατηγορίες drones και μπορούν να χρησιμοποιηθούν για κάτι πέρα από τη λήψη βίντεο;",
     "description": "Ποιες είναι οι διάφορες κατηγορίες drones και μπορούν να χρησιμοποιηθούν για κάτι πέρα από τη λήψη βίντεο;",
-    "category": "posts"
+    "category": "posts",
+    "content": "\n🔗 Παραπομπές [1] Christos Spyridakis, \u0026ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms\u0026rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531\n"
   },{
     "title": "Μήπως όλοι σκεφτόμαστε με χαζό τρόπο;",
     "url": "https://stemerot.pages.dev/posts/psychology/stupid-people/",
     "summary": "Είναι ένα άτομο με υψηλό IQ έξυπνο σε όλους τους τομείς της ζωής του;",
     "description": "Είναι ένα άτομο με υψηλό IQ έξυπνο σε όλους τους τομείς της ζωής του;",
-    "category": "posts"
+    "category": "posts",
+    "content": ""
   },{
     "title": "Η μεγάλη μάχη των λειτουργικών συστημάτων",
     "url": "https://stemerot.pages.dev/posts/technology/os/pc-vs-mac-vs-linux/",
     "summary": "Ποιο λειτουργικό είναι καλύτερο να χρησιμοποιείς;",
     "description": "Ποιο λειτουργικό είναι καλύτερο να χρησιμοποιείς;",
-    "category": "posts"
+    "category": "posts",
+    "content": "Σήμερα, λίγο πολύ, οι υπολογιστές έχουν μπει στη ζωή μας για τα καλά! Είτε μιλάμε για AI/ML, Crypto Mining, Gaming, είτε για πιο καθημερινά ζητήματα, κατά πάσα πιθανότητα θα δεις μία οθόνη και πίσω από αυτήν ένα ψηφιακό σύστημα που την ελέγχει. Συχνά, με όμορφα γραφικά και κινούμενα στοιχεία να μας τραβούν την προσοχή, πώς όμως λειτουργεί όλο αυτό;\nΚάποιος μηχανισμός θα πρέπει να υπάρχει ώστε να τα ελέγχει όλα αυτά, έτσι δεν είναι; Μάλλον ναι… Και αυτό συχνά είναι ένα λειτουργικό σύστημα.\nΔεν είναι πολλά χρόνια πριν που οι χρήστες υπολογιστών λειτουργούσαν αυτά τα συστήματα εξ\u0026rsquo; ολοκλήρου από τερματικά.\nΤο τερματικό είναι ένα πρόγραμμα, χωρίς γραφικά, όπου οι χρήστες δίνουν εντολές προς εκτέλεση. Κάποιοι, βέβαια, ακόμα και σήμερα, κάνουν μεγάλη χρήση των τερματικών, αλλά αυτό είναι ίσως θέμα συζήτησης για ένα άλλο άρθρο. Βέβαια, το τερματικό είναι ένα μέρος του λειτουργικού συστήματος και όχι όλο εξ\u0026rsquo; ολοκλήρου.\nΣτη δεκαετία του \u0026lsquo;70 – λιγότερο από 60 χρόνια πριν – εμφανίστηκαν τα πρώτα Unix λειτουργικά συστήματα, προάγγελοι της φιλοσοφίας που χρησιμοποιούμε ακόμα και σήμερα σε σύγχρονα λειτουργικά συστήματα.\nΑρχικά, όλα γίνονταν μέσω μίας μαύρης οθόνης και του τερματικού, όπου ο χειριστής έγραφε εντολές και το σύστημα λειτουργούσε.\nΜία δεκαετία αργότερα, άρχισαν να εμφανίζονται και τα πρώτα λειτουργικά συστήματα με γραφικά.\nΤο 1991, ο Linus Torvalds, ιδρυτής του Linux, έδωσε στο ευρύ κοινό την πρώτη έκδοση του Linux, μέσω του εξής ιστορικού μηνύματος:\nHello everybody out there using minix - I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I’d like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things). I’ve currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I’ll get something practical within a few months, and I’d like to know what features most people would want. Any suggestions are welcome, but I won’t promise I’ll implement them :-) - Linus PS. Yes — it’s free of any minix code, and it has a multi-threaded fs. It is NOT protable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that’s all I have :-(. Λίγα χρόνια αργότερα, τον Νοέμβριο του 1985, η Microsoft κυκλοφόρησε το Windows 1.0, την πρώτη εκδοχή των Windows, η οποία έτρεχε πάνω στο MS-DOS.\nΕνώ φυσικά, δεν άργησε να εμφανιστεί και το 2001 η πρώτη εκδοχή του macOS, η οποία βασίστηκε σε τεχνικές σχετικές με το Unix και ήταν η σύγχρονη εκδοχή του Macintosh που είχε εμφανιστεί το 1984.\nΝοσταλγία για κάποιους λίγους που θα διαβάσουν αυτό το άρθρο\u0026hellip;\nΕσύ; Θυμάσαι τον πρώτο σου υπολογιστή; Τι λειτουργικό χρησιμοποιούσε;\nΒασικά, μισό λεπτό\u0026hellip;\nΌταν ξεκίνησες να χρησιμοποιείς υπολογιστή, σου είπε ποτέ κανείς ποια είναι η δουλειά ενός λειτουργικού συστήματος και ποιο έχεις εσύ; Ή απλά έμαθες να χρησιμοποιείς το κομπιούτερ, όπως θα έλεγε και ο γνωστός θείος που όλοι είχαμε, και το χρησιμοποιείς από τότε χωρίς να μάθεις ποτέ αυτές τις πληροφορίες;\nΤι είναι ένα λειτουργικό σύστημα;\nΟ ορισμός που υπάρχει στην Wikipedia – αν και, όπως αναφέρει και εκεί, είναι δύσκολο να περιγραφεί πλήρως – είναι ο εξής:\n\u0026ldquo;Λειτουργικό θεωρείται ένα πρόγραμμα που χειρίζεται το hardware ενός υπολογιστή και παρέχει στους διάφορους χρήστες του - πόρους του συστήματος. Με λίγα λόγια, παρέχει στα υπόλοιπα προγράμματα υπηρεσίες για να λειτουργούν. Ένα αδιάλειπτο πρόγραμμα που περιλαμβάνεται στο λειτουργικό, έχει τα πλήρη δικαιώματα σε αυτό και σκοπός του είναι η διαχείριση μεγάλου μέρους των ευθυνών του συστήματος, είναι ο πυρήνας (kernel).\u0026rdquo;\n%%{init: {\u0026#39;theme\u0026#39;:\u0026#39;neutral\u0026#39;}}%% graph TB User[Χρήστες] \u0026lt;--\u0026gt; Application Application[Εφαρμογές] \u0026lt;--\u0026gt; os os[Λειτουργικό Σύστημα] \u0026lt;--\u0026gt; Hardware Ανάλογα με τα χαρακτηριστικά ενός λειτουργικού, αυτό μπορεί να κατηγοριοποιηθεί σε διάφορες κατηγορίες και να χρησιμοποιείται για συγκεκριμένες χρήσεις.\nΠάμε όμως πάλι στο σήμερα\u0026hellip;;\nΣήμερα τα πράγματα μάλλον είναι πολύ απλά\u0026hellip;\nΘέλεις να παίζεις Fortnite, να είσαι στο Discord με τα παιδιά και να streamάρεις; Τότε μάλλον θα χρησιμοποιείς Windows, ακόμα και όταν κοιμάσαι.\nΘέλεις να κάνεις video editing και να είσαι digital nomad; Τότε σίγουρα το macOS είναι για εσένα.\nΚαι τέλος, θέλεις να γίνεις ο επόμενος hacker που θα γράψει την ιστορία; Φυσικά, θα έχεις στον υπολογιστή σου τα Ubuntu 24.04 και θα τρέχεις από το GitHub τον πρώτο κώδικα που βρήκες να σχετίζεται με RAT.\nΉ μήπως και όχι\u0026hellip;\nΜήπως τα πράγματα τελικά δεν είναι τόσο στερεοτυπικά;\nΜπορεί κάποιος να παίξει παιχνίδια σε Linux; Μπορεί ένας CEO, αντί για Mac, να έχει ένα Windows laptop; Και είναι τα Windows το λειτουργικό για να μάθεις σε βάθος προγραμματισμό;\nΗ απάντηση ούτε ήταν, ούτε θα είναι ποτέ απλή\u0026hellip;\nΤο λειτουργικό ενός υπολογιστή δεν είναι τίποτα άλλο παρά ένα εργαλείο. Ένα εργαλείο που, ανάλογα με τη χρήση που θέλουμε να κάνουμε, θα πρέπει να επιλέξουμε το πλέον κατάλληλο και, ίσως, να το χρησιμοποιήσουμε και με τον πλέον βέλτιστο τρόπο.\nΠροσωπικά, όταν ξεκίνησα στις αρχές του 21ου αιώνα το ταξίδι μου στον κόσμο των υπολογιστών, η πρώτη μου επαφή ήταν, όπως νομίζω με ένα μεγάλο μέρος ανθρώπων, με ένα Windows XP μηχάνημα. Στη συνέχεια, Vista, Windows 7. Έπειτα, από το 2014 και μέχρι σήμερα, διάφορες διανομές Linux (Ubuntu, Debian, Fedora, κλπ). Ενώ τα τελευταία χρόνια χρησιμοποιώ και Mac.\nΓιατί όμως να αναφερθούν όλα αυτά και ποιόν μπορεί να ενδιαφέρει\u0026hellip;\nΤα άρθρα, μέχρι πρότινως, γιατί τα LLMs σύντομα ίσως αλλάξουν την εξέλιξη των πραγμάτων (διάβασε αυτό το άρθρο για να δεις τι είναι τα LLMs όπως το deepseek) γράφονταν από ανθρώπινο δυναμικό, πράγμα που σημαίνει ότι οι προσωπικές εμπειρίες και το υπόβαθρό μας μπορούν να επηρεάσουν το περιεχόμενο ενός άρθρου. Παρόμοια, είναι ταυτόχρονα σημαντικό, να έχουμε εμπειρία πάνω στα θέματα που συζητούνται σε ένα άρθρο.\n🔗 Παραπομπές [1] https://en.wikipedia.org/wiki/Operating_system\n[2] https://en.wikipedia.org/wiki/Kernel_(operating_system)\n"
   },{
     "title": "Ασφάλεια στην εκτέλεση προγραμμάτων",
     "url": "https://stemerot.pages.dev/posts/engineering/security/tee/",
     "summary": "Πώς μπορούν οι εφαρμογές να εκτελούνται με ασφάλεια στις συσκευές, ακόμη και αν αυτές έχουν παραβιαστεί;",
     "description": "Πώς μπορούν οι εφαρμογές να εκτελούνται με ασφάλεια στις συσκευές, ακόμη και αν αυτές έχουν παραβιαστεί;",
-    "category": "posts"
+    "category": "posts",
+    "content": "Some title Some content\n🔗 Παραπομπές [1] C. Spyridakis, A. Aktypi, T. Kyriakakis and S. Ioannidis, \u0026ldquo;SecureExecutor: An Automated Way to Leverage SCONE to Enhance Application Security,\u0026rdquo; 2024 IEEE International Conference on Cyber Security and Resilience (CSR), London, United Kingdom, 2024, pp. 827-832, doi: 10.1109/CSR61664.2024.10679349. keywords: {Linux;Containers;Software;Silicon;Libraries;Complexity theory;Security;Security;TEE;Intel SGX;SCONE},\n"
   },{
     "title": "Χρήση κάμερας για τον υπολογισμό της θέσης",
     "url": "https://stemerot.pages.dev/posts/engineering/localization/camera-pose-estimation/",
     "summary": "Πώς μπορούμε, με μία κάμερα, να εκτιμήσουμε τη θέση μας στον χώρο;",
     "description": "Πώς μπορούμε, με μία κάμερα, να εκτιμήσουμε τη θέση μας στον χώρο;",
-    "category": "posts"
+    "category": "posts",
+    "content": "\n🔗 Παραπομπές [1] Christos Spyridakis, \u0026ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms\u0026rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531\n"
   },{
     "title": "Αλγόριθμοι υπολογισμού θέσης αντικειμένων",
     "url": "https://stemerot.pages.dev/posts/engineering/localization/localization-algorithms/",
     "summary": "Λεπτομέρειες των αλγορίθμων που χρησιμοποιούμε για τον υπολογισμό της θέσης ενός αντικειμένου στον 3D χώρο.",
     "description": "Λεπτομέρειες των αλγορίθμων που χρησιμοποιούμε για τον υπολογισμό της θέσης ενός αντικειμένου στον 3D χώρο.",
-    "category": "posts"
+    "category": "posts",
+    "content": "\n🔗 Παραπομπές [1] Christos Spyridakis, \u0026ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms\u0026rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531\n"
   },{
     "title": "Τεχνικές υπολογισμού της θέσης αντικειμένων",
     "url": "https://stemerot.pages.dev/posts/engineering/localization/position-computation/",
     "summary": "Ποια είναι τα μαθηματικά πίσω από τον υπολογισμό της θέσης αντικειμένων, δηλαδή τεχνικών όπως αυτές που χρησιμοποιεί το GPS;",
     "description": "Ποια είναι τα μαθηματικά πίσω από τον υπολογισμό της θέσης αντικειμένων, δηλαδή τεχνικών όπως αυτές που χρησιμοποιεί το GPS;",
-    "category": "posts"
+    "category": "posts",
+    "content": "Some title Some content\n🔗 Παραπομπές [1] Christos Spyridakis, \u0026ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms\u0026rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531\n"
   },{
     "title": "Εκτίμηση απόστασης/γωνίας μεταξύ αντικειμένων",
     "url": "https://stemerot.pages.dev/posts/engineering/localization/distance-angle-estimation/",
     "summary": "Πώς μπορούμε να χρησιμοποιήσουμε ηλεκτρομαγνητικά ή ακουστικά σήματα για να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων;",
     "description": "Πώς μπορούμε να χρησιμοποιήσουμε ηλεκτρομαγνητικά ή ακουστικά σήματα για να εκτιμήσουμε την απόσταση μεταξύ δύο αντικειμένων;",
-    "category": "posts"
+    "category": "posts",
+    "content": "\nΣε προηγούμενο άρθρο, γεννήθηκε η απορία για το πώς στο καλό δουλεύει το GPS\u0026hellip; Αν έχεις απορία σε ποιό άρθρο έγινε η εισαγωγή.. Διάβασε αυτό εδώ και θα καταλάβεις 😉.\nΈνα από τα σημαντικότερα μέρη ενός συστήματος εντοπισμού θέσης, είναι αυτό του υπολογισμού αποστάσεων και γωνιών. Γνωρίζοντας τέτοιου είδους πληροφορίες, μπορούν να χρησιμοποιηθούν έξυπνες μαθηματικές τεχνικές για να βρούμε την θέση αντικειμένων στον χώρο και τελικά να βάλουμε στο νέο next gen phone ένα ultra ακριβές GPS\u0026hellip;\n%%{init: {\u0026#39;theme\u0026#39;:\u0026#39;neutral\u0026#39;}}%% graph LR subgraph local[Localization system] direction LR end ## 🔗 Παραπομπές [1] Christos Spyridakis, \u0026#34;Design and implementation of a low cost embedded system for localization of drones flying in swarms\u0026#34;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531 "
   },{
     "title": "Μα καλά, πώς δουλεύει το GPS;",
     "url": "https://stemerot.pages.dev/posts/engineering/localization/localization-system/",
     "summary": "Καθημερινά χρησιμοποιούμε εφαρμογές όπως το Gmaps για να μετακινηθούμε από το ένα σημείο στο άλλο. Πώς, όμως, λειτουργεί αυτό;",
     "description": "Καθημερινά χρησιμοποιούμε εφαρμογές όπως το Gmaps για να μετακινηθούμε από το ένα σημείο στο άλλο. Πώς, όμως, λειτουργεί αυτό;",
-    "category": "posts"
+    "category": "posts",
+    "content": "Είσαι στο κέντρο της πόλης σου, είναι μεσημέρι και σε παίρνει τηλέφωνο το φιλαράκι σου. Σου λέει να πας να την/τον συνατήσεις σε ένα μαγαζί που δεν ξέρεις καν ότι υπάρχει.. Τι κάνεις;\nΣιγά την απορία\u0026hellip; Βγάζεις το κινητό, μπαίνεις στο Google maps ή το Apple maps, γράφεις το όνομα του μαγαζιού και σε 5 λεπτά είσαι εκεί!\nΑλήθεια όμως\u0026hellip; Πώς ξέρει το κινητό σου που βρίσκεται το μαγαζί..; Πώς ξέρει καν που βρίσκεσαι εσύ; Επίσης, πώς ξέρει από όλους αυτούς τους δρόμους που υπάρχουν ποιόν να ακολουθήσει;\nΤο πιο πιθανό είναι να μην τα είχες σκεφτεί όλα αυτά μέχρι τώρα.. Ή ακόμα και αν τα είχες σκεφτεί, μάλλον η πιο προφανής απάντηση που είχες δώσει είναι, ότι με κάποιο μαγικό τρόπο κάπως απλά δουλεύουν..\nΓια να είμαστε όμως ειλικρινής, δεν είναι έτσι\u0026hellip; Οι παραπάνω ερωτήσεις, αποτελούν μέρος προβλημάτων, που μαθηματικοί, μηχανικοί και άλλοι επιστήμονες προσπαθούν να λύσουν για χρόνια. Και εμείς θα δούμε την βασική ιδέα για το πως προσπαθούν να το καταφέρουν αυτό.\nΠρόβλημα 1 🔗 Παραπομπές [1] Christos Spyridakis, \u0026ldquo;Design and implementation of a low cost embedded system for localization of drones flying in swarms\u0026rdquo;, Diploma Work, School of Electrical and Computer Engineering, Technical University of Crete, Chania, Greece, 2022 https://doi.org/10.26233/heallink.tuc.91531\n"
   }]
