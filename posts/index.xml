@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Stemerot</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://stemerot.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Είναι τελικά η Μουσική η αριθμητική των ήχων;</title>
+      <link>https://stemerot.pages.dev/posts/science/music-and-math/</link>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://stemerot.pages.dev/posts/science/music-and-math/</guid>
+      <description>Μπορούν τα μαθηματικά να εξηγήσουν άραγε την μουσική; Είναι η μουσική μία εξίσωση μαθηματικών;</description>
+    </item>
     <item>
       <title>Τι είναι το Deepseek;</title>
       <link>https://stemerot.pages.dev/posts/technology/ai/llms-deepseek/</link>
